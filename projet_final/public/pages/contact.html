@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LionsPC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/app.css">
+    <!-- goole fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Montserrat:wght@500&family=Odor+Mean+Chey&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="upc">
+
+    <!--header contact  -->
+    <div>
+
+        <header>
+            <div>
+                <h6 class="header-num">+(212)-666-666 <span class="header-mail">help@Lionspc.ma</span></h6>
+            </div>
+        </header>
+    </div>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg bg-primary" id="up" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">LionsPC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../../index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            produits
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item bg-danger" href="./pc1.html">Out of stock!</a></li>
+                            <li><a class="dropdown-item bg-success" href="./pc2.html">asus-gamer</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                    </li>
+                </ul>
+                <form class="d-flex m-auto w-50" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light " type="submit">
+                        <img src="../images/search.svg" alt="searsh-icon">
+                    </button>
+                </form>
+
+                <!-- Button login -->
+
+                <button type="button" class="btn btn-outline-light m-3" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Login
+                </button>
+
+                <!-- Login Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+
+                                <!-- login form -->
+                                <form class="text-light">
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone
+                                            else.</div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                                    </div>
+                                </form>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Login</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    Inscription
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+
+                                <!-- Inscription Modal -->
+                                <form class="row g-3 text-light">
+                                    <div class="col-md-4">
+                                        <label for="validationServer01" class="form-label">First name</label>
+                                        <input type="text" class="form-control is-valid" id="validationServer01"
+                                            value="Mark" required>
+                                        <div class="valid-feedback">
+                                            Looks good!
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="validationServer02" class="form-label">Last name</label>
+                                        <input type="text" class="form-control is-valid" id="validationServer02"
+                                            value="Otto" required>
+                                        <div class="valid-feedback">
+                                            Looks good!
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 w-75">
+                                        <label for="validationServer02" class="form-label">Email address</label>
+                                        <input type="email" class="form-control is-valid" id="validationServer02"
+                                            value="" required>
+                                        <div class="valid-feedback">
+                                            Looks good!
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 w-50">
+                                        <label for="validationServer02" class="form-label">Password</label>
+                                        <input type="password" class="form-control is-valid" id="validationServer02"
+                                            value="" required>
+                                        <div class="valid-feedback">
+                                            ILooks good!
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 w-50">
+                                        <label for="validationServer02" class="form-label">Confirm Password</label>
+                                        <input type="password" class="form-control is-valid" id="validationServer02"
+                                            value="" required>
+                                        <div class="valid-feedback">
+                                            Confirm your password
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 w-50">
+                                        <label for="validationServer05" class="form-label">Number</label>
+                                        <input type="number" class="form-control is-invalid" id="validationServer05"
+                                            aria-describedby="validationServer05Feedback" required>
+                                        <div id="validationServer05Feedback" class="invalid-feedback">
+                                            Please provide a Phone number.
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 w-75">
+                                        <label for="validationServer03" class="form-label">Adresse</label>
+                                        <input type="text" class="form-control is-invalid" id="validationServer03"
+                                            aria-describedby="validationServer03Feedback" required>
+                                        <div id="validationServer03Feedback" class="invalid-feedback">
+                                            Please provide a valid city.
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="validationServer03" class="form-label">City</label>
+                                        <input type="text" class="form-control is-invalid" id="validationServer03"
+                                            aria-describedby="validationServer03Feedback" required>
+                                        <div id="validationServer03Feedback" class="invalid-feedback">
+                                            Please provide a valid city.
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <label for="validationServer05" class="form-label">Zip</label>
+                                        <input type="text" class="form-control is-invalid" id="validationServer05"
+                                            aria-describedby="validationServer05Feedback" required>
+                                        <div id="validationServer05Feedback" class="invalid-feedback">
+                                            Please provide a valid zip.
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input is-invalid" type="checkbox" value=""
+                                                id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                                            <label class="form-check-label" for="invalidCheck3">
+                                                Agree to terms and conditions
+                                            </label>
+                                            <div id="invalidCheck3Feedback" class="invalid-feedback">
+                                                You must agree before submitting.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-primary" type="submit">Submite</button>
+                                    </div>
+                                </form>
+                                <!-- final insc form -->
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Inscription</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </nav>
+
+    <!-- map -->
+
+    <h1 class="text-center contact-h1-pixel">Contact</h1>
+    <div class="row">
+
+        <div class="col-6">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.0582663068294!
+           2d-7.53643198889246!3d33.603792641165676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13
+           .1!3m3!1m2!1s0xda7cdb2f812837f%3A0xbbcfc74fbc11b2d9!2sLionsGeek!5e0!3m2!1sfr!2
+           sma!4v1696597138061!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen=""
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+        
+        <!-- contact-form -->
+        
+        <div class="col-6">
+            <form class="contact-form">
+                <div class="mb-3 w-50">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Message</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" style="padding-bottom: 100px;">
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </div>
+
+  <!-- footer -->
+
+    <footer>
+
+        <table class="footer-infos">
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>LionsPC</td>
+                <td>help@lionspc.ma</td>
+                <td>Morocco</td>
+            </tr>
+            <tr>
+                <td>Centre comercial Ainsbaa</td>
+                <td>+212-666-666</td>
+                <td>Casablanca</td>
+            </tr>
+        </table>
+    </footer>
+
+
+
+
+
+    <!-- up icone -->
+    <div>
+        <a href="./contact.html#upc">
+            <img width="150px" src="../images/up.png" alt="" class="up">
+        </a>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
